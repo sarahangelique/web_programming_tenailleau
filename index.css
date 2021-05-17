@@ -1,0 +1,95 @@
+/*FRONT PAGE*/
+html body{
+  margin: auto;
+  width: 90%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+header nav{
+    display:flex;
+   
+} 
+
+.logo{
+  height: 60px;
+  max-width: 100%;
+}
+
+.icons{
+  height: 25px;
+  max-width: 100%;
+}
+
+header span{
+    margin-right: 20px;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*ABOUT US*/
+ #section1 .section{
+  height: 10px;
+  display: grid;
+  margin: auto;
+}
+
+div nav img{
+  height: 500px;
+  width: 700px;
+}
+
+
+
+/*LATEST RELEASES*/
+
+section nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  height: 250px;
+  width: 250px;
+}
+
+#releases{
+    display: grid;
+    width: 600vw; /*vw view portwidth*/
+    margin: auto;
+    grid-template-rows: repeat(3, 420px); /*nb of rows*/
+    grid-template-columns: repeat(2, 200px); /*nb of columns*/
+    column-gap: 15px; /*gab between elements*/
+    /* row-gap: 15px; */
+}
+
+.image{
+    width: 100%;
+    height: 50;
+    border-radius: 3px;
+}
+
+.header-description{
+    margin: 0;
+    text-align: justify;
+}
+
+
+/*END OF PAGE*/
+footer{
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    position:inherit;
+    bottom:0vw;
+    justify-content: space-between;
+}
