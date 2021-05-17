@@ -85,6 +85,25 @@ div ul img{
   width: 270px;
 }
 
+/*@media screen and (min-width: 300px) and (max-width: 600px){ 
+  #song-container {
+  grid-template-rows: repeat(8, 450px); 
+  grid-template-columns: repeat(1, 300px);
+  width:  300px!important; 
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1100px){ 
+  #song-container {
+  width: 90vw !important; 
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1300px){ 
+  #song-container {
+  width: 80vw !important; 
+  }
+} */
 
 /*END OF PAGE*/
 footer{
